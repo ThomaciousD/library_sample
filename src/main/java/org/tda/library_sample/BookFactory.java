@@ -7,7 +7,7 @@ public class BookFactory {
     
     private BookFactory() {
         super();
-        System.out.println("connect to database");
+        System.out.println("connecting to database");
     }
 
     public synchronized static BookFactory getInstance() {
